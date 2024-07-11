@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    height:200%;
+    width: 150%;
+    display: block;
+    position: absolute;
+    left: 150px;
+    right: 0px;
+    z-index: 0;
+
+}
+
+.pic img {
+    margin-top: 10px;
+    margin-left: 00px;
+    margin-bottom: 2350px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 8px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.aside {
+    width: 150px;
+    background-color: rgb(255, 254, 254);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    display: flex;
+    height: 100%;
+    border-right: 1px solid rgb(203, 202, 201);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 10;
+
+}
+
+.aside .logo {
+    top: 50px;
+    ;
+    position: absolute;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.aside .logo a {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+
+.aside .logo a span {
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    color: deeppink;
+}
+
+.aside .details {
+    margin: 30px;
+}
+
+.aside .details ul li {
+    margin: 0px;
+    padding: 1px;
+    font-size: 11px;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+
+.section btn {
+    padding: 2px;
+    margin: 5px;
+    font-size: 30px;
+    position: sticky;
+    display: flex;
+}
+
+/*  projects cards */
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
+}
+
+.card-desk {
+    margin-top: 500px;
+    margin-left: 10px;
+    margin-left:10px;
+}
+.card{
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    
+      }
+      form {
+        margin-left:60px ;
+        width: 70%;
+        /* height: 100%; */
+        
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(45, 43, 43);
+        color: #f2f2fc;
+        border: #e8dfec;
+        text-align: center;
+        border-radius: 8px;
+        position: static;
+    }
+    
+      .question h2{
+       
+       padding-top: 180px;
+      padding-left: 100px;
+          color:#bf0c6e;
+          
+      }
+      .question h3{
+      
+          padding-left: 100px;
+          color:#f2f2fc;
+      }
+      .call ul li{
+        margin-top:20px;
+        margin-left: 100px;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-size: larger;
+      }
+      .con{
+
+    
+      padding-left: 100px;
+      color: #bf0c6e;
+    }
+    .folio {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 50px;
+        padding-right: 70px;
+        padding-left: 40px;
+       display: flex;
+       color:#e8dfec
+      }
+      .sub-folio{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-right: 40px;
+        font-size:25px;
+      }
+      .sub-folio span{
+        font-weight: bolder;
+      }
+      .sub-folio hr{
+        border: 1px solid rgb(255, 255, 255);
+      }
+      .edu{
+        margin-top:180px;
+        margin-left: 0px;;
+       margin-right: 15px;
+        background-color: #302e4d;
+        max-width:max-content;
+        font-size: small;
+        color:white;
+        border-radius: 15px;
+       display: flex;
+       position: relative;
+    
+       
+      }
+      .edu .education{
+        border: 2px #bf0c6e;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-right: 100 px;
+    margin-right: 70px;
+      }
+      .vl {
+        border-left: 6px solid #fdf9ff9e;
+        height: 300px;
+        /* position: absolute; */
+        /* left: 50%; */
+        margin-top: 36px;
+        margin-left: 50px;
+        top: 0;
+      }

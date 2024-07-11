@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    height:500%;
+    width: 200%;
+    display: block;
+    position: absolute;
+    left: 70px;
+    right: 0px;
+    z-index: 0;
+
+}
+
+.pic img {
+    margin-top: 220px;
+    margin-left: 0px;
+    margin-bottom: 2350px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 8px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.aside {
+    width:70px;
+    background-color: rgb(255, 254, 254);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    display: flex;
+    height: 100%;
+    border-right: 1px solid rgb(203, 202, 201);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 10;
+
+}
+
+.aside .logo {
+    top: 50px;
+    
+    position: absolute;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.aside .logo a {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+
+.aside .logo a span {
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    color: deeppink;
+}
+
+.aside .details {
+    margin: 30px;
+}
+
+.aside .details ul li {
+    margin: 0px;
+    padding: 1px;
+    font-size: 11px;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+
+.section btn {
+    padding: 2px;
+    margin: 5px;
+    font-size: 30px;
+    position: sticky;
+    display: flex;
+}
+
+.edu{
+    margin-top:180px;
+    margin-left: 0px;;
+   margin-right: 10px;
+    background-color: #302e4d;
+    max-width:max-content;
+    font-size:9px;
+    color:white;
+    border-radius: 15px;
+   display:flex;
+   /* flex-direction: row; */
+   /* position: fixed; */
+
+   
+  }
+  .edu .education{
+    
+padding-top: 5px;
+padding-left: 0px;
+padding-bottom: 15px;
+padding-right: 10 px;
+margin-right: 20px;
+  }
+  .vl {
+    border-left: 6px solid #fdf9ff9e;
+    height: 300px;
+    /* position: absolute; */
+    /* left: 50%; */
+    margin-top: 36px;
+    margin-left:0px;
+    top: 0;
+  }
